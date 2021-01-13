@@ -1,0 +1,54 @@
+@font-face{
+    font-family: "Graffiti";
+    src: url("AttackGraffiti-3zRBM.ttf");
+}
+
+@font-face{
+    font-family: "Chopsic";
+    src: url("Chopsic-K6Dp.ttf");
+}
+
+
+
+
+body{
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align: center;
+    background-size: 100%;
+    background-color: teal;
+
+}
+
+.firstpage{
+    font-size: 50px;
+    padding:5%;
+}
+
+button{
+    color: black;
+    background-color: blanchedalmond;
+    padding: 5px 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+.StartGame{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+    margin: 100px;
+    font-family: Chopsic;
+}
+
+h1{
+    font-family: Graffiti;
+    font-size: 100px;
+}
